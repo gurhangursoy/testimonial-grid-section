@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+body{    
+    margin: 0;
+    padding: 0;
+    background-color:hsl(210, 46%, 95%);
+    font-family: "Barlow Semi Condensed", sans-serif;      
+    height: 100vh; 
+    font-size: 13px;
+    }
+
+.container {    
+    margin: 50px auto;    
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.card-first {
+    background-color: hsl(263, 55%, 52%);
+    font-size: 14px;
+}
+    
+.card-second {
+    background-color:hsl(217, 19%, 35%);
+    font-size: 15px;
+    padding: 1px;
+}
+.card-third {
+padding: 2px;
+}
+.card-fourth {
+    background-color: hsl(219, 29%, 14%);
+    font-size: 14px;
+    padding: 1px;
+}
+
+.card-first, .card-second, .card-fourth {
+    border-radius: 10px;
+    color: white;
+}
+
+.card-third , .card-fifth {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.card-third .explanation {
+    color:hsl(217, 19%, 35%);
+}
+
+.card-fifth .explanation {
+    color:hsl(217, 19%, 35%);
+}
+
+.images {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.card-text {
+    padding: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.explanation {
+    padding: 10px;
+    margin-left: 5px;
+    color: hsl(0, 0%, 81%);
+}
